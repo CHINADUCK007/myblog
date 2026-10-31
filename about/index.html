@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>
+        Liang&#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/myblog/css/style.css">
+
+    
+        
+            <link rel="icon" href="/myblog/image/icon/vista_messenger.jpg">
+        
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css">
+<meta name="generator" content="Hexo 8.1.2"></head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <div class="header" id="pjax-header">
+    <header class="card">
+        <p class="blog-title">
+            过时的记忆，荒唐的生活
+        </p>
+    </header>
+    <nav class="button-bar">
+        <ul class="nav-links">
+            <li>
+                <a href="/" class="button link-home ">
+                    <span class="nav-text">
+                        <img src="/image/icon/vista_messenger.jpg" alt="home" class="icon">
+                        <span>Home</span>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives" class="button ">
+                    <span class="nav-text">
+                        <img src="/image/icon/vista_book_1.jpg" alt="posts" class="icon">Archives    
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="/about" class="button active">
+                    <span class="nav-text">
+                        <img src="/image/icon/vista_pc_1.jpg" alt="about" class="icon">About
+                    </span>
+                </a>
+            </li>
+            
+        </ul>
+
+    </nav>
+</div>
+
+        <div class="button mobile-menu-btn" id="mobile-menu-btn">
+            <span class="menu-icon ri-menu-fill"></span>
+        </div>
+
+            <div class="main-layout">
+                <aside id="sidebar">
+                    <div class="widget avatar-widget">
+    <div class="avatar-bg">
+        <a target="_blank" rel="noopener" href="https://www.xiaohongshu.com/user/profile/69967a700000000019031e41">
+            <img src="/myblog/image/tx.png" class="profile-img">
+        </a>
+    </div>
+</div>
+<div class="widget card profile-widget">
+    <div class="profile">
+        <div>ZengLiang</div>
+        <div>
+            
+            
+                <a href="/myblog/" class="button profile-link" target="_blank" title="Github">
+                    <img src="/myblog/image/icon/github.png" class="profile-icon" alt="Github">
+                </a>
+            
+                <a href="/myblog/" class="button profile-link" target="_blank" title="Bilibili">
+                    <img src="/myblog/image/icon/bilibili.png" class="profile-icon" alt="Bilibili">
+                </a>
+            
+        
+        </div>
+    </div>
+    <div class="about">
+        I thought about death for many years, like thinking about a distant place. Today, I finally set out. 
+    </div>
+</div>
+
+
+<div class="widget music-widget">
+    <div class="player-content">
+        <div class="song-info">
+            <div class="info-bg album-art" id="albumArt"></div>
+            <div class="info-bg title-bar">
+                <span class="song-title" id="songTitle">Loading...</span>
+            </div>
+        </div>
+
+        <div class="info-bg progress-container" id="progressContainer">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="controls">
+            <button class="button play-btn" id="playBtn">
+                <span id="playIcon" class="ri-play-large-fill"></span>
+            </button>
+            <button class="button ctrl-btn" id="prevBtn">
+                <span class="ri-skip-back-fill"></span>
+            </button>
+            <button class="button ctrl-btn" id="nextBtn">
+                <span class="ri-skip-forward-fill"></span>
+            </button>
+        </div>
+    </div>
+
+    <audio id="audioPlayer"></audio>
+</div>
+
+<script>
+    var musicConfig = {
+        autoplay: true,
+        playlist: [{"title":"Frutiger Aero","artist":"Nintedo","cover":"/image/musicbg.jpg","url":"/music/bgmusic.mp3"}]
+    };
+</script>
+                </aside>
+                <main id="pjax-container">
+                    <div class="card post-full">
+    <span class="post-title article-title">
+        有关我自己
+    </span>
+
+    <div class="post-meta">
+        2026-10-31
+            
+    </div>
+
+    <div class="post-content">
+        <p>这个博客是我29岁那年建的。那天上午我喝了杯凉掉的茶，选了个挺顺眼的未来复古主义模板，写完第一篇就关掉了。打算后来断断续续地更，有时候因为睡不着，有时候因为路上看到一棵长得很歪的树，像极了我的成长轨迹。</p>
+<p>那时候我还没死——当然。但现在你看到这些字的时候，大概情况不一样了。</p>
+<p>我叫曾亮。活了好多年，甚至活的有些腻味。大部分时间待在老家惠州，偶尔去别处走了走，去云南读了书，又再次回到这里。我有很多称不上特长的爱好，光是乐器就学了好多种，又跨了好几个学科跑去读研，到头来却什么也没明白。有过几个朋友，走散了一些，也留下了一些。做过些还行的决定，也搞砸过不少事，比例为四六开，我算过，但具体哪边是四哪边是六就不说了。</p>
+<p>我写东西是因为有些话对着空气说太傻，对着人说又太晚，放在这里刚刚好——不打扰谁，也不会完全消失。我常觉得人不是一下子没的，是一点一点没的，先是这儿，再是那儿。这些字大概也算没没干净的那一部分，扫帚不到，灰尘照例不会自己跑掉。</p>
+<p>你可能会觉得有些篇目很无聊。确实，有些我也觉得无聊。但人都死了，我就不改了。</p>
+<p>谢谢你翻到这里。如果非要说点什么——别难过太久。去看看今天天气怎么样。</p>
+
+    </div>
+</div>
+                </main>
+                <div class="sidebar-mask" id="sidebar-mask"></div>
+            </div>
+            <!-- footer -->
+            <footer class="card">
+    <div class="copyright">
+        <p>Copyright © 2026
+                ZengLiang
+        </p>
+        <p>Powered by Hexo</p>
+    </div>
+</footer>
+    </div>
+
+    <script src="/js/responsive.js"></script>
+    <script src="/js/music.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            new Pjax({
+                elements: 'a[href]:not([target]):not([data-no-pjax])',
+                selectors: [
+                    'title',
+                    '#pjax-container',
+                    '#pjax-header'
+                ]
+            })
+        })
+    </script>
+    
+</body>
+
+</html>
