@@ -1,0 +1,28 @@
+menu:
+  about: /about
+favicon:
+  enable: true
+  icon: /image/icon/vista_messenger.jpg
+profile:
+  enable: true
+  author: ''
+  avatar: /image/tx.png
+  avatar_link: https://www.xiaohongshu.com/user/profile/69967a700000000019031e41
+  social: # you can customize which and how many social links to show
+    - name: Github
+      link: '' # https://github.com/username
+      icon: /image/icon/github.png
+    - name: Bilibili
+      link: '' # https://space.bilibili.com/3587736
+      icon: /image/icon/bilibili.png
+music:
+  enable: true
+  autoplay: true
+  songs:
+    - title: 'Frutiger Aero'
+      artist: 'Nintedo'
+      cover: /image/musicbg.jpg
+      url: /music/bgmusic.mp3
+math:
+  enable: true
+  engine: mathjax
